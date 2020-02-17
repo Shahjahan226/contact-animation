@@ -1,0 +1,40 @@
+
+h2{
+    font-family: "Segoe Script";
+    margin-left: 75%;
+    color: darkgray;
+
+}
+.img {
+
+    margin-top: -33%;
+    margin-left: 10%;
+
+}
+body{
+    background: #232323;
+}
+.lol{
+    margin-left: 45%;
+    padding-right: 8%;
+    font-family: "Segoe Script";
+    color: darkgray;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 15s;
+}
+@keyframes example {
+    /*from{background-color:red}
+    to {background-color:yellow}*/
+    0% {background-color: red}
+    25% {background-color: yellow}
+    50% {background-color: blue}
+    100% {background-color: green}
+    /*0% {background-color red}
+    25% {background-color yellow }
+    50% {background-color blue}
+    100% {background-color green}
+     */
+}
